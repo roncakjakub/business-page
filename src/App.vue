@@ -3,10 +3,10 @@
   <div class="introduction-screen w-screen h-screen" ref="home">
     <div class="relative flex h-screen items-end container-lg container-style">
       <div class="mb-8">
-        <h1 class="inline-block text-7xl font-bold highlighted-color mb-6">
+        <h1 class="inline-block md:text-7xl text-6xl font-bold highlighted-color mb-6">
           <span class="bg-black px-4 pt-3">Silná technika</span>
         </h1>
-        <h1 class="text-7xl font-bold highlighted-color mb-3">
+        <h1 class="md:text-7xl text-6xl leading-snug md:leading-tight font-bold highlighted-color mb-3">
           <span class="bg-black px-4 pt-3">Neohraničené možnosti</span>
         </h1>
       </div>
@@ -14,7 +14,7 @@
   </div>
   <!-- new section --->
   <section
-    class="container-lg container-style justify-between items-center flex gap-5 py-24"
+    class="container-lg container-style justify-between items-center flex flex-col md:flex-row gap-5 py-24"
   >
     <div>
       <img src="./assets/images/Ornament.svg" alt="ornament" />
@@ -80,19 +80,19 @@
     <p>Sal din hug og lat den ri og renna med blinde augo vil du vegen finna</p>
   </section>
   <!-- new section -->
-  <section>
-    <div class="flex">
+  <section class="mb-8 md:mb-0">
+    <div class="flex md:flex-row flex-col gap-5">
       <div
-        class="w-1/4 h border-solid border-2 border-white truck-preview-1"
+        class="md:w-1/4 w-100 h border-solid border-2 border-white truck-preview-1"
       ></div>
       <div
-        class="w-1/4 border-solid border-2 border-white truck-preview-2"
+        class="md:w-1/4 border-solid border-2 border-white truck-preview-2"
       ></div>
       <div
-        class="w-1/4 border-solid border-2 border-white truck-preview-3"
+        class="md:w-1/4 border-solid border-2 border-white truck-preview-3"
       ></div>
       <div
-        class="w-1/4 border-solid border-2 border-white truck-preview-4"
+        class="md:w-1/4 border-solid border-2 border-white truck-preview-4"
       ></div>
     </div>
   </section>
@@ -101,9 +101,9 @@
     <div
       class="container-lg container-style flex flex-col md:flex-row gap-8 justify-between"
     >
-      <img src="./assets/images/Logo_svg_majchrak.svg" alt="logo majchrak" />
-      <div class="flex">
-        <div>
+      <img class="h-20 md:h-auto" src="./assets/images/Logo_svg_majchrak.svg" alt="logo majchrak" />
+      <div class="flex flex-col md:flex-row items-start ml-8 md:ml-0">
+        <div class="mb-5 md:mb-0">
           <p class="text-white mb-4 font-bold text-2xl">Adresa</p>
           <ul>
             <li class="text-color-emphasized text-lg">Zakamenné 925</li>
@@ -111,14 +111,14 @@
             <li class="text-color-emphasized text-lg">02956</li>
           </ul>
         </div>
-        <div class="ml-24">
+        <div class="md:ml-24 mb-5 md:mb-0">
           <p class="text-white mb-4 font-bold text-2xl">Údaje o spoločnosti</p>
           <ul>
             <li class="text-color-emphasized text-lg">IČO: 35379448</li>
             <li class="text-color-emphasized text-lg">DIČ: 1020083207</li>
           </ul>
         </div>
-        <div class="ml-24">
+        <div class="md:ml-24 mb-5 md:mb-0">
           <p class="text-white mb-4 font-bold text-2xl">Kontakt</p>
           <ul>
             <li class="text-color-emphasized text-lg">

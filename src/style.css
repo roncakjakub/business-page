@@ -49,7 +49,7 @@ p {
 }
 
 .introduction-screen {
-  background-image: url("./assets/images/photo_hero_majchrak.webp");
+  background:linear-gradient(to top, rgba(0,0,0,0) 80%, rgba(0,0,0,1)), url("./assets/images/photo_hero_majchrak.webp");
 }
 
 .fade-enter-active,
@@ -66,24 +66,28 @@ p {
   height: 53.3125rem;
   background-image: url("./assets/images/IMG_4266.webp");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .truck-preview-2 {
   height: 53.3125rem;
   background-image: url("./assets/images/IMG_4263.webp");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .truck-preview-3 {
   height: 53.3125rem;
   background-image: url("assets/images/IMG_4264.webp");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 .truck-preview-4 {
   height: 53.3125rem;
   background-image: url("assets/images/IMG_4265.webp");
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* color styles */

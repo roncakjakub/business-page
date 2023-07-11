@@ -3,8 +3,8 @@
     <header
       :class="
         scrolled
-          ? 'transition-opacity duration-500 fixed w-full py-2 px-10 z-50 mx-auto bg-black'
-          : 'transition-opacity duration-500 fixed w-full py-2 px-10 z-50 mx-auto'
+          ? 'transition-opacity duration-500 fixed w-full py-2 px-10 z-40 mx-auto bg-black'
+          : 'transition-opacity duration-500 fixed w-full py-2 px-10 z-40 mx-auto'
       "
     >
       <div class="flex justify-between items-center">
