@@ -7,7 +7,7 @@
           : 'transition-opacity duration-500 fixed w-full py-2 px-10 z-40 mx-auto'
       "
     >
-      <div class="flex justify-between items-center">
+      <div class="flex container-lg container-style justify-between items-center mt-1.5 mb-1">
         <div class="flex gap-1">
           <img
             class="w-40"
