@@ -1,7 +1,7 @@
+@tailwind base;
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,700;1,400&display=swap");
 
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -89,9 +89,10 @@ p {
 
 .truck-preview-4 {
     height: 53.3125rem;
-    background-image: url("assets/images/IMG_4265.webp");
+    background-image: url("assets/images/Fotka_bager.webp");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* color styles */

@@ -13,6 +13,7 @@
     </div>
   </div>
   <!-- new section --->
+
   <section
       class="container-lg container-style justify-between items-center flex flex-row gap-5 py-24"
   >
@@ -21,8 +22,8 @@
       <h3 class="heading-style">Kontaktuje nás</h3>
       <p>Odpovieme Vám v najrýchlejšom možnom čase</p>
     </div>
-    <a href="mailto:dusanmajchrak78@gmail.com" class="border-solid border-black border-2 py-2 px-12">
-      <span class="text-sm heading-color">dusanmajchrak78@gmail.com</span>
+    <a href="mailto:dusanmajchrak73@gmail.com" class="border-solid border-black border-2 py-2 px-12">
+      <span class="text-sm heading-color">dusanmajchrak73@gmail.com</span>
     </a>
   </section>
   <!-- new section -->
@@ -44,7 +45,7 @@
             zabezpečí promptné dokončenie projektov.
           </p>
         </div>
-        <div class="box-style w-1/3">
+        <div class="box-style w-1/3" style="height: 304px">
           <img
               class="mb-8"
               src="./assets/images/verified_FILL0_wght400_GRAD0_opsz48.svg"
@@ -70,28 +71,42 @@
     </div>
   </section>
   <!-- new section -->
-  <section class="container-lg container-style py-24" ref="ourMachines">
+  <section class="container-style container-lg " ref="ourMachines">
+    <div class="flex  items-center  flex-row gap-8 ">
+
+    <div class="box-style w-1/2 py-0 ">
     <img src="./assets/images/Ornament.svg" alt="ornament"/>
     <h3 class="heading-style">Naše stroje</h3>
     <p>Každodenní hrdinovia vždy v plnom nasadení</p>
+    </div>
+    <div class=" w-1/2  py-0">
+      <img
+          class=""
+          src="./assets/images/Nakladne_auta_majchrak_2.webp"
+          alt="thumb up icon"
+      />
+    </div>
+    </div>
   </section>
   <!-- new section -->
-  <section class="mb-0">
-    <div class="flex flex-row  gap-5">
+  <section class="mb-0 grey-background pt-24">
+    <div class="flex flex-row  ">
       <div
-          class="w-1/4  h border-solid border-2 border-white truck-preview-1"
+          class="w-1/4  h border-solid border-2 border-gray-100 truck-preview-1"
       ></div>
       <div
-          class="w-1/4 border-solid border-2 border-white truck-preview-2"
+          class="w-1/4 border-solid border-2 border-gray-100 truck-preview-2"
       ></div>
       <div
-          class="w-1/4 border-solid border-2 border-white truck-preview-3"
+          class="w-1/4 border-solid border-2 border-gray-100 truck-preview-3"
       ></div>
       <div
-          class="w-1/4 border-solid border-2 border-white truck-preview-4"
+          class="w-1/4 border-solid border-2 border-gray-100 truck-preview-4"
       ></div>
     </div>
   </section>
+  <TransportationRegulations></TransportationRegulations>
+
   <!-- footer -->
   <footer class="footer-background py-24" ref="contact">
     <div
@@ -118,7 +133,7 @@
           <p class="text-white mb-4 font-bold text-2xl">Kontakt</p>
           <ul>
             <li class="text-color-emphasized text-lg">
-              Email: <a href="mailto:dusanmajchrak78@gmail.com">dusanmajchrak78@gmail.com</a>
+              Email: <a href="mailto:dusanmajchrak73@gmail.com">dusanmajchrak73@gmail.com</a>
             </li>
             <li class="text-color-emphasized text-lg">Telefon: <a href="tel:0905 366 205">0905 366 205</a>
             </li>
@@ -137,10 +152,12 @@
 
 <script>
 import Navigation from "./components/Navigation.vue";
+import Rules from "./Rules.vue";
+import TransportationRegulations from "./rules.vue";
 
 export default {
   name: "Home",
-  components: {Navigation},
+  components: {TransportationRegulations, Navigation,Rules},
   methods: {
     scrollToSection(sectionName) {
       this.$refs[sectionName].scrollIntoView({behavior: "smooth"});
